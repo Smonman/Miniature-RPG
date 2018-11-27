@@ -1,0 +1,24 @@
+Logger class:
+	wie in wow der text der erscheint, wenn irdenwas geloggt werden muss
+		zb "target ist zu weit enfernt"
+		"ich kann das jetzt nicht tun"
+		...
+	Logger.LogWarning
+	Logger.LogInfo
+	Logger.LogError
+	...
+
+GameManager
+	OnStart
+		Lade alle Spells von einer master datei xml?
+			alle attribute + welcher klasse dieser spell angehört
+			durch alle spells durchgehen und jeder klasse die passenden spells geben
+			
+Creature
+	Buff List
+	Debuff List
+	Aura Manager
+		static Query(List)
+			call assosiated function for each aura that is relevant
+	
+	Going up a hill is recognised as jumping not as walking

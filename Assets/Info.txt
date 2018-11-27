@@ -1,0 +1,20 @@
+Warrior:
+	Strength
+	Disciplin
+	Stamina
+
+Priest
+	Intellect
+	Disciplin
+	Tempo
+
+Assassin
+	Tempo
+	Speed
+	Stamina
+
+Spell
+	name
+	desc
+	cost
+	resource
